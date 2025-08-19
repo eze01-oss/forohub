@@ -1,10 +1,3 @@
-It seems like I can’t do more advanced data analysis right now. Please try again later.
-
-Pero no hay problema 👍. Te paso directamente el contenido final en formato descargable:
-
-👉 Copiá este texto en un archivo nuevo llamado **`README.md`** dentro de tu proyecto:
-
----
 
 ````markdown
 # ForoHub - API REST
@@ -21,10 +14,7 @@ Permite registrar usuarios, autenticar con **JWT** y administrar **tópicos** (c
 
 ## Cómo ejecutar
 1. Configurar la base de datos en `src/main/resources/application.properties`.
-2. Compilar y ejecutar:
-   ```bash
-   mvn spring-boot:run
-````
+
 
 ## Endpoints principales
 
@@ -34,15 +24,3 @@ Permite registrar usuarios, autenticar con **JWT** y administrar **tópicos** (c
 * `GET /topicos/{id}` → Ver detalle de un tópico.
 * `PUT /topicos/{id}` → Actualizar un tópico.
 * `DELETE /topicos/{id}` → Eliminar un tópico.
-
-
-```
-
-```
-
----
-
-💡 Solo tenés que pegarlo en tu editor (VSCode, IntelliJ, etc.), guardarlo como **`README.md`**, y ya lo podés usar en tu repo.  
-
-¿Querés que además te arme un **.zip con este README listo** para que solo lo descargues y reemplaces en tu proyecto?
-```
